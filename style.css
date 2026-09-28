@@ -1815,4 +1815,64 @@ body.light .footer {
     }
 }
 
+/* =========================
+   MOBILE MEMBER CARD FIX
+   ========================= */
 
+@media (max-width: 850px) {
+
+    .project-card {
+        height: 400px;
+        overflow: hidden;
+    }
+
+    .member-photo {
+        width: 180px;
+        height: 180px;
+        object-fit: contain;
+        object-position: center top;
+        margin: 0 auto 20px auto;
+    }
+
+    .project-overlay {
+        padding: 20px;
+    }
+
+    .member-info h3 {
+        font-size: 23px;
+        line-height: 1.2;
+    }
+
+    .member-info p {
+        font-size: 13px;
+        overflow-wrap: anywhere;
+    }
+}
+
+
+@media (max-width: 560px) {
+
+    .project-card {
+        height: 400px;
+    }
+
+    .member-photo {
+        width: 175px;
+        height: 175px;
+        object-fit: contain;
+        object-position: center top;
+    }
+
+    .project-overlay {
+        padding: 20px;
+    }
+
+    .member-info h3 {
+        font-size: 21px;
+    }
+
+    .member-info p {
+        font-size: 12px;
+        overflow-wrap: anywhere;
+    }
+}
